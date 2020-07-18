@@ -16,9 +16,9 @@ To set up the new application to be used as a custom search engine in Firefox, y
 - Check the box “Make this the current search engine”
 - Click “Add”
 
-If your app isn’t already running locally, run cargo run.
+For local testing,If your app isn’t already running locally, run cargo run.
 
-Open a new tab in Firefox and try some of the commands we added! With that, the app is working locally
+Open a new tab in Firefox and try some of the commands we added! With that, the app is working.
 
 ### Setting up with Chrome
 
@@ -30,6 +30,8 @@ Setting up with Chrome is a little bit more straightforward because you don’t 
   - Keyword: ss (triggers the search engine, if this search engine is not the default)
   - URL: https://protected-bayou-98664.herokuapp.com/search?cmd=%s or http://localhost:8000/search?cmd=%s (For local testing)
 - Under “Other search engines”, find your search engine, select the 3 dots menu and select “Make default”
+
+Open a new tab in Chrome and try out the commands.
 
 ## Usage
 In the address bar of the browser type the search query with supported commands
