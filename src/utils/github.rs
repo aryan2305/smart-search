@@ -33,19 +33,19 @@ mod tests {
 
     #[test]
     fn test_construct_github_profile_url_with_repo_url() {
-        let fake_query = "facebook";
+        let fake_query = "gh aryan2305";
         assert_eq!(
             construct_github_url(fake_query),
-            "https://github.com/facebook"
+            "https://github.com/aryan2305"
         );
     }
 
     #[test]
     fn test_construct_github_search_url_with_repo_url() {
-        let fake_query = "gh facebook/docusaurus";
+        let fake_query = "gh aryan2305/Relief";
         assert_eq!(
             construct_github_url(fake_query),
-            "https://github.com/facebook/docusaurus"
+            "https://github.com/aryan2305/Relief"
         );
     }
 }
